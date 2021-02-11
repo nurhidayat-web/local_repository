@@ -67,7 +67,8 @@ foreach($ArrayObject as $obj){
         echo 'Invalid input...' ."\n";
     }
 }
-        
+    
+//Valid and ivalid just to show validation input
 echo 'Average killed : ' . ($ValidSum/$ValidCount) . ' (Valid Input)  ' . "\n";
 echo 'Average killed : ' . ($ValidSum/count($ArrayObject)) . ' (All Input)  ' . "\n";
 
